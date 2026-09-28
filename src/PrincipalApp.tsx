@@ -6,7 +6,6 @@ import { Lista } from './componentes/Lista';
 
 export const PrincipalApp = () => {
     const { filtro, tareasFiltradas, setFiltro, agregarTarea, alternarTarea, eliminarTarea } = administrador();
-
     return (
         <div className="tarjeta-contenedor">
             <Titulo titulo='Mi Lista de Tareas' />
